@@ -38,7 +38,6 @@ main {
 			form {
 				margin: 0 auto;
 				width: 500px;
-				// border: 2px solid #ccc;
 				padding: 30px;
 				border-radius: 10px;
 				box-shadow: 0 0 15px 0 #ccc;
@@ -75,7 +74,6 @@ main {
 					font-size: 1.3rem;
 					margin-top: 10px;
 				}
-
 			}
 		}
 
@@ -87,15 +85,17 @@ main {
 					&.desc {
 						th {
 							font-size: 1.2em;
+							padding-bottom: 20px;
+							border-bottom: 1px solid #a8a8a8;
 						}
 					}
 
 					&.item {
-						cursor: pointer;
 						td {
 							min-width: 100px;
 							text-align: center;
 							padding: 10px;
+							border-bottom: 1px solid #eeeeee;
 							.img {
 								img {
 									width: 100px;

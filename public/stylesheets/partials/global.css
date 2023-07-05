@@ -23,6 +23,7 @@
   transition: 300ms ease-in-out;
   color: black;
   background: none;
+  border-collapse: collapse;
 }
 
 input,

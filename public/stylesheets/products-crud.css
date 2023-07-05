@@ -68,14 +68,14 @@ main section.products {
 }
 main section.products table tr.desc th {
   font-size: 1.2em;
-}
-main section.products table tr.item {
-  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a8a8a8;
 }
 main section.products table tr.item td {
   min-width: 100px;
   text-align: center;
   padding: 10px;
+  border-bottom: 1px solid #eeeeee;
 }
 main section.products table tr.item td .img img {
   width: 100px;
